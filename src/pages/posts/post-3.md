@@ -1,4 +1,5 @@
 ---
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Why Astro?'
 pubDate: 2025-01-03
 description: 'Why I decided to choose Astro to build my projects'
@@ -8,10 +9,6 @@ image:
   alt: 'The Astro logo on a dark background with a pink glow.'
 tags: ['astro', 'blogging', 'learning in public']
 ---
-
-# Why Astro?
-
-Published on: 2025-01-03
 
 In my last post I talked about what I wanted to build with Astro. Now, I want to share why I chose Astro to build my projects.
 
