@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My Goal with Astro'
 pubDate: 2025-01-03
 description: 'What I want to build with Astro'

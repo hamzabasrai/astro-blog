@@ -1,5 +1,4 @@
 ---
-layout: ../../layouts/MarkdownPostLayout.astro
 title: 'Why Astro?'
 pubDate: 2025-01-03
 description: 'Why I decided to choose Astro to build my projects'
