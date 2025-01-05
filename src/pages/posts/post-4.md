@@ -1,9 +1,9 @@
 ---
 layout: ../../Layouts/MarkdownPostLayout.astro
-title: My Fourth Blog Post
+title: 'My Fourth Blog Post'
 pubDate: 2025-01-05
 description: 'This post will appear automatically in the blog list'
-author: Hamza Basrai
+author: 'Hamza Basrai'
 image:
   url: 'https://docs.astro.build/assets/rose.webp'
   alt: 'The Astro logo on a dark background with a pink glow.'

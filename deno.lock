@@ -1,6 +1,7 @@
 {
   "version": "4",
   "specifiers": {
+    "npm:@astrojs/rss@^4.0.11": "4.0.11",
     "npm:astro@^5.1.2": "5.1.2_vite@6.0.7_zod@3.24.1"
   },
   "npm": {
@@ -38,6 +39,13 @@
       "integrity": "sha512-GilTHKGCW6HMq7y3BUv9Ac7GMe/MO9gi9GW62GzKtth0SwukCu/qp2wLiGpEujhY+VVhaG9v7kv/5vFzvf4NYw==",
       "dependencies": [
         "prismjs"
+      ]
+    },
+    "@astrojs/rss@4.0.11": {
+      "integrity": "sha512-3e3H8i6kc97KGnn9iaZBJpIkdoQi8MmR5zH5R+dWsfCM44lLTszOqy1OBfGGxDt56mpQkYVtZJWoxMyWuUZBfw==",
+      "dependencies": [
+        "fast-xml-parser",
+        "kleur@4.1.5"
       ]
     },
     "@astrojs/telemetry@3.2.0": {
@@ -853,6 +861,12 @@
         "glob-parent",
         "merge2",
         "micromatch"
+      ]
+    },
+    "fast-xml-parser@4.5.1": {
+      "integrity": "sha512-y655CeyUQ+jj7KBbYMc4FG01V8ZQqjN+gDYGJ50RtfsUB8iG9AmwmwoAgeKLJdmueKKMrH1RJ7yXHTSoczdv5w==",
+      "dependencies": [
+        "strnum"
       ]
     },
     "fastq@1.18.0": {
@@ -1948,6 +1962,9 @@
     "strip-bom@3.0.0": {
       "integrity": "sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA=="
     },
+    "strnum@1.0.5": {
+      "integrity": "sha512-J8bbNyKKXl5qYcR36TIO8W3mVGVHrmmxsd5PAItGkmyzwJvybiw2IVq5nqd0i4LSNSkB/sx9VHllbfFdr9k1JA=="
+    },
     "tinyexec@0.3.2": {
       "integrity": "sha512-KQQR9yN7R5+OSwaK0XQoj22pwHoTlgYqmUscPYoknOoWCWfj/5/ABTMRi69FrKU5ffPVh5QcFikpWJI/P1ocHA=="
     },
@@ -2182,6 +2199,7 @@
   "workspace": {
     "packageJson": {
       "dependencies": [
+        "npm:@astrojs/rss@^4.0.11",
         "npm:astro@^5.1.2"
       ]
     }
