@@ -1,5 +1,5 @@
 ---
-layout: ../../Layouts/MarkdownPostLayout.astro
+layout: ../../layouts/MarkdownPostLayout.astro
 title: 'My Fourth Blog Post'
 pubDate: 2025-01-05
 description: 'This post will appear automatically in the blog list'
